@@ -1,2 +1,2 @@
-# nppd
-Neural Partitioning Pyramids for Denoising Monte Carlo Renderings
+# Neural Partitioning Pyramids for Denoising Monte Carlo Renderings
+Coming soon
