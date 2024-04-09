@@ -1,0 +1,30 @@
+defaults:
+  - noisebase/sampleset_v1@training_data
+  - noisebase/sampleset_test8_v1@test_data
+  - override hydra/job_logging: stdout
+  - override hydra/hydra_logging: none
+  - _self_
+
+training_data:
+  samples: 8
+  batch_size: 8
+  buffers:
+    - normal
+    - motion
+    - depth
+    - diffuse
+    - color
+    - reference
+  framework: lightning
+
+test_data:
+  buffers: ${training_data.buffers}
+  samples: ${training_data.samples}
+
+model:
+  _target_: model.Model
+
+hydra:
+  run:
+    dir: ''
+  output_subdir: null

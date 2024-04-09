@@ -1,0 +1,16 @@
+# CPython cache
+**/__pycache__
+*.py[cod]
+
+# Evironments
+env
+
+# Build artefacts
+src/nppd.egg-info
+
+# Data
+data
+outputs
+
+# Editor
+.vscode

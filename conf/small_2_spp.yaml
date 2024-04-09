@@ -1,0 +1,10 @@
+defaults:
+  - base
+  - _self_
+
+training_data:
+  samples: 2
+
+name: small_2_spp
+model:
+  network: 15M

@@ -1,0 +1,15 @@
+defaults:
+  - base
+  - noisebase/sampleset_test32_v1@test_data
+  - _self_
+
+training_data:
+  samples: 32
+
+test_data:
+  buffers: ${training_data.buffers}
+  samples: ${training_data.samples}
+
+name: large_32_spp
+model:
+  network: 30M

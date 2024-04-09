@@ -1,0 +1,20 @@
+name: nppd
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - lightning>=2.2
+  - pytorch>=2.1
+  - torchvision 
+  - torchaudio 
+  - pytorch-cuda
+  - numpy
+  - matplotlib
+  - hydra-core
+  - tensorboard
+  # Noisebase
+  - zarr>=2
+  - imageio
+  - scipy
+  - ffmpeg
