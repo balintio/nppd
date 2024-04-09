@@ -82,8 +82,8 @@ nb-compute-metrics sampleset_test32_v1 outputs/large_32_spp
 
 Finally, export a table with all the results:
 ```bash
-nb-result-table sampleset_test8_v1 \ 
-outputs/small_2_spp,outputs/small_4_spp,outputs/large_8_spp \ 
+nb-result-table sampleset_test8_v1 \
+outputs/small_2_spp,outputs/small_4_spp,outputs/large_8_spp \
 psnr,ssim,msssim,fvvdp,flip --sep=" | "
 nb-result-table sampleset_test32_v1 outputs/large_32_spp \
 psnr,ssim,msssim,fvvdp,flip --sep=" | "

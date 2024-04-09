@@ -11,6 +11,7 @@ src/nppd.egg-info
 # Data
 data
 outputs
+nppd_pretrained.zip
 
 # Editor
 .vscode
